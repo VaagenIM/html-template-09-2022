@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #212121;
+}
+
+#frame{
+    background-color: #5e5e5e;
+    min-height: 90vh; /* vh = høyde% av nettleservindu (viewport) */
+    width: 70vw; /* vw = bredde% av nettleservindu (viewport) */
+    margin-inline: auto; /* margin-inline = marg venstre og høyre, auto = midstill */
+}
+
+/**********/
+/* Banner */
+/**********/
+#banner{
+    height: 25vh;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#banner h1{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 72px;
+    font-family: "Roboto Light", sans-serif;
+}
+
+.banner1{
+    background-image: url("img/banner1.jpg");
+}
+.banner2{
+    background-image: url("img/banner2.jpg");
+}
+.banner3{
+    background-image: url("img/banner3.jpg");
+}
+.banner4{
+    background-image: url("img/banner4.jpg");
+}
+
+/**********/
+/* NAVBAR */
+/**********/
+.navbar{
+    width: 100%;
+    overflow: auto;
+    background-color: #333;
+}
+
+.navbar a{
+    float: left;
+    padding: 24px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "", sans-serif;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.active{
+    background-color: #444;
+}
+
+/***********/
+/* Content */
+/***********/
+#content{
+    padding: 10px;
+}
+
+
+/**********/
+/* Footer */
+/**********/
+footer{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+footer h1{
+    font-family: "Arial", sans-serif;
+}
+
+/*************/
+/* Alt annet */
+/*************/
+h1{
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+p{
+    font-family: "Comic Sans MS", sans-serif;
+}
